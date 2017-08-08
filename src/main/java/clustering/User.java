@@ -6,6 +6,5 @@ public class User {
 	String name;
 	String screenname;
 	String location;
-	
 
 }
