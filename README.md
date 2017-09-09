@@ -1,5 +1,6 @@
 Clustering Users 
 
+IN PROGRESS...
 
 
 This Project is designed into two parts.
