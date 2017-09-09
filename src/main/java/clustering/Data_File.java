@@ -8,21 +8,21 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class File {
+public class Data_File {
 
 	String Path;
 	String Name;
 
 	List<String> Values = new ArrayList<String>();
 
-	public File(String path, String name) {
+	public Data_File(String path, String name) {
 		super();
 		Path = path;
 		Name = name;
 		Name += ".txt";
 	}
 
-	public File() {
+	public Data_File() {
 		super();
 
 		Path = "/Users/lukaskrabbe/Desktop/TwitterData/";

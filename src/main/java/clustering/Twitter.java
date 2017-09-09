@@ -51,12 +51,12 @@ public class Twitter {
 		// Establish a connection
 		client.connect();
 
-		File file ;
+		Data_File file ;
 		int numFiles = 10;
 		int numMessages = 1000;
 		for (int createdFiles = 0; createdFiles < numFiles; createdFiles++) {
 			// Create File
-			file = new File();
+			file = new Data_File();
 			for (int msgRead = 0; msgRead < numMessages; msgRead++) {
 				if (client.isDone()) {
 					System.out.println("Client connection closed unexpectedly: " + client.getExitEvent().getMessage());
@@ -68,7 +68,7 @@ public class Twitter {
 					System.out.println("Did not receive a message in 5 seconds");
 				} else {
 					// Write Input in File
-					file.addVal("\n");
+					//file.addVal("\n");
 					file.addVal(msg);
 				}
 			}
