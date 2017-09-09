@@ -13,3 +13,4 @@ will be there Tweets esapacilly there retweet- and answer- behavior.
 
 The future Plan will be to analyse these relation in connection with special Themes. (#DonaldTrump etc.)
 
+© Lukas Krabbe
